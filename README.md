@@ -8,3 +8,7 @@ All code in this project was written by **Claude** (Anthropic), working with ZCl
 
 - Client modules, UI and rendering: Claude
 - Direction, testing and ideas: ZClux
+
+## Built with Claude
+
+This client was built with [Claude](https://claude.com) by Anthropic.
