@@ -1,0 +1,2 @@
+Real mouse click recordings (press + release) of: Bloody V8, Glorious Model O, IntelliMouse Optical, Logitech G203, Logitech G Pro X Superlight, Rapture Venom, Razer DeathAdder V2 Pro, Trust GXT 152.
+Source: https://github.com/spreyo/clicket (sounds/*/click.mp3), GPL-3.0. Converted to mono 16-bit 44.1 kHz WAV and peak-normalised.

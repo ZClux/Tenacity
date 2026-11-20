@@ -1,0 +1,15 @@
+nkcream|NK Cream|5
+oreo|Everglide Oreo|10
+holypanda|Holy Panda|5
+alpaca|Alpaca|5
+topre|Topre|5
+turquoise|Turquoise Tealios|5
+boxnavy|Box Navy|5
+mxblue|MX Blue|5
+mxbrown|MX Brown|5
+mxblack|MX Black|5
+bluealps|Blue Alps|5
+buckling|Buckling Spring|5
+blackink|Black Ink|5
+redink|Red Ink|5
+mxblackpbt|MX Black PBT|10

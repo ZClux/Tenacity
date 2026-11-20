@@ -1,0 +1,8 @@
+name = "tenacity-configs"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+workers_dev = true
+
+[[kv_namespaces]]
+binding = "CONFIGS"
+id = "2eba00466ca84146902068720549e052"

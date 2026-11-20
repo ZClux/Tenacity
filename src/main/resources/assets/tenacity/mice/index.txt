@@ -1,0 +1,5 @@
+gaming|Gaming Mouse|6,4,6,2,2,6
+clicky|Clicky Optical|8,4,8,2,2,3
+office|Office Mouse|6,4,6,2,2,6
+silent|Silent Click|6,2,6,1,2,3
+creamy|Creamy|8,4,8,2,2,3

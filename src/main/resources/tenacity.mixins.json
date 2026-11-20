@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tenacity.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MinecraftClientMixin", "GameRendererMixin", "GuiRendererMixin", "ChatScreenMixin", "RenderTweaksMixin", "ClientWorldMixin", "ClientWorldPropertiesMixin", "WorldWeatherMixin", "OverlayTweaksMixin", "CameraTweaksMixin", "CameraUpdateMixin", "LookDirectionMixin", "FreecamHandMixin", "FreecamCrosshairMixin", "FreecamInputMixin", "CrosshairMixin", "HandMixin", "WorldMatricesMixin", "PlayerAlphaMixin", "ViewModelMixin", "SwingSpeedMixin", "HotbarMixin", "ZoomMixin", "WorldOutlineMixin", "WorldRendererAccessor", "WorldRenderHookMixin", "ArmorAlphaMixin",
+    "BlockOutlineMixin",
+    "KnifeHandMixin", "UseSlowMixin", "JumpCooldownAccessor", "MoveInputMixin",
+    "AutoToolMixin", "AspectRatioMixin", "CFreeCamCameraMixin", "CFreeCamEntityMixin", "CFreeCamGameRendererMixin", "CFreeCamHeldItemMixin", "CFreeCamOverlayMixin", "CFreeCamInputMixin", "CFreeCamMouseMixin", "CFreeCamPlayerMixin", "CFreeCamOcclusionMixin", "ClientConnectionPacketMixin", "MobSpawnerLogicAccessor", "KeyboardSoundMixin", "MouseSoundMixin", "MusicControlsMixin", "EndCrystalRendererMixin", "ClientBlockUpdateMixin", "NameTextMixin", "NameChatMixin", "SkinProtectMixin", "SkinProtectEntryMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

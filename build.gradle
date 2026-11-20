@@ -1,0 +1,84 @@
+plugins {
+    id 'fabric-loom' version '1.16.3'
+}
+
+version = project.mod_version
+group = project.maven_group
+base { archivesName = project.archives_base_name }
+
+repositories {
+    mavenCentral()
+    maven { url 'https://maven.fabricmc.net/' }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+    // the rendering code ported from Crypto uses Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    // NanoVG is not shipped by Minecraft - bundled into the mod jar
+    implementation "org.lwjgl:lwjgl-nanovg:${project.lwjgl_version}"
+    include "org.lwjgl:lwjgl-nanovg:${project.lwjgl_version}"
+    ["natives-windows", "natives-linux", "natives-macos", "natives-macos-arm64"].each { n ->
+        include "org.lwjgl:lwjgl-nanovg:${project.lwjgl_version}:${n}"
+    }
+    runtimeOnly "org.lwjgl:lwjgl-nanovg:${project.lwjgl_version}:natives-windows"
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = 'UTF-8'
+}
+java { sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand 'version': project.version }
+}
+
+loom {
+    runs {
+        client {
+            if (project.hasProperty('shots')) {
+                vmArg "-Dtenacity.shots=${project.property('shots')}"
+                programArgs '--quickPlaySingleplayer', (project.findProperty('shotWorld') ?: 'Test'), '--width', '1920', '--height', '1080'
+            }
+            // optional separate game dir so two harness runs do not fight over world / log locks
+            if (project.hasProperty('shotRunDir')) runDir project.property('shotRunDir')
+        }
+    }
+}
+
+// Attachable distribution: the whole client plus tenacity.inject.Attach / Agent.
+tasks.register('injectableJar', Jar) {
+    dependsOn tasks.remapJar
+    archiveClassifier = 'injectable'
+    from({ zipTree(tasks.remapJar.archiveFile.get().asFile) })
+    exclude 'META-INF/MANIFEST.MF'
+    manifest {
+        attributes('Main-Class': 'tenacity.inject.Attach',
+                'Agent-Class': 'tenacity.inject.Agent',
+                'Can-Retransform-Classes': 'true',
+                'Can-Redefine-Classes': 'true')
+    }
+}
+tasks.named('build') { dependsOn tasks.named('injectableJar') }
+
+tasks.register('verifyInjectable', JavaExec) {
+    dependsOn tasks.named('injectableJar')
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'tenacity.inject.VerifyPort'
+    javaLauncher = javaToolchains.launcherFor { languageVersion = JavaLanguageVersion.of(21) }
+    doFirst {
+        def mc = fileTree(new File(gradle.gradleUserHomeDir, 'caches/fabric-loom/minecraftMaven')) {
+            include '**/*1.21.11*/*.jar'
+        }.files.findAll { it.name.contains('intermediary') }
+        if (mc.empty) throw new GradleException('Minecraft intermediary jars not found for offline port verification')
+        args = [tasks.injectableJar.archiveFile.get().asFile.absolutePath] + mc.collect { it.absolutePath }
+    }
+}

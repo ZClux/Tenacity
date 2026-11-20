@@ -1,0 +1,15 @@
+Creamy Keys - recorded mouse click sounds
+=========================================
+
+All clips converted (C:/tmp/msbuild.py, ffmpeg) to mono 16-bit 44.1 kHz WAV, trimmed to <=120 ms, peak-normalised.
+Pitch-shifted variants and the low-passed "Silent Click" / "Creamy" profiles are derived from the same recordings.
+
+1) "UI Audio" by Kenney Vleugels (www.kenney.nl) - https://kenney.nl/assets/ui-audio
+   Licence: CC0 1.0 (public domain) - http://creativecommons.org/publicdomain/zero/1.0/
+   Used: mouseclick1, mouserelease1, click1-5, rollover2, switch1/3/4/5/6/8/9/12/13/14/17/19/20/21/22/24/25
+
+2) "Interface Sounds" by Kenney Vleugels (www.kenney.nl) - https://kenney.nl/assets/interface-sounds
+   Licence: CC0 1.0 (public domain)
+   Used: tick_001, tick_002, tick_004 (scroll wheel notches)
+
+Profiles: gaming (Gaming Mouse), clicky (Clicky Optical), office (Office Mouse), silent (Silent Click), creamy (Creamy)

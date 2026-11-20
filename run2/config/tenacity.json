@@ -1,0 +1,1470 @@
+{
+  "modules": {
+    "COMBAT:Test:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "COMBAT:Test:1": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "COMBAT:Test:2": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "COMBAT:Test:3": {
+      "enabled": false,
+      "bind": 82,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "MOVEMENT:Sprint:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Omni Directional": false
+      }
+    },
+    "MOVEMENT:Test:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "MOVEMENT:Test:1": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "MOVEMENT:Test:2": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "PLAYER:Auto Tool:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "PLAYER:Test:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "PLAYER:Test:1": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "PLAYER:Test:2": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Option": true,
+        "Value": 50.0,
+        "Mode": "A"
+      }
+    },
+    "RENDER:ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Corners",
+        "Players": true,
+        "Mobs": false,
+        "Health Bar": true,
+        "Range": 96.0
+      }
+    },
+    "RENDER:Skeleton ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "X-Ray",
+        "Color": "Purple",
+        "Distance Color": false,
+        "X-Ray Body": true,
+        "Thickness": 2.0,
+        "Glow": true,
+        "Glow Size": 1.0,
+        "Glow Strength": 1.0,
+        "Self (3rd person)": false,
+        "Range": 96.0
+      }
+    },
+    "RENDER:Shader ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Players": true,
+        "Mobs": false,
+        "Items": false,
+        "Color": "Purple",
+        "Halo": true,
+        "Glow Size": 1.4,
+        "Glow Strength": 1.4,
+        "Outline Width": 2.0,
+        "Fill": true,
+        "Fill Opacity": 45.0,
+        "Shimmer": false,
+        "Pulse": false
+      }
+    },
+    "RENDER:Player Transparency:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Opacity": 40.0,
+        "Self": true,
+        "Others": true,
+        "Look": "Smoke"
+      }
+    },
+    "RENDER:Tracers:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Origin": "Crosshair",
+        "Aim At": "Body",
+        "Style": "Line",
+        "Range": 96.0,
+        "Width": 1.8,
+        "Glow": true,
+        "Distance Fade": true,
+        "Color": "Theme"
+      }
+    },
+    "RENDER:Nametags:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Health": true,
+        "Distance": true,
+        "Head": true,
+        "Held Item": true,
+        "Scale": 1.0
+      }
+    },
+    "RENDER:Item ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Block Highlight:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Frost",
+        "Color": "Frost",
+        "Smooth": true,
+        "Smooth Speed": 14.0,
+        "Fade In/Out": true,
+        "Outline Width": 1.6,
+        "Fill": true,
+        "Fill Opacity": 18.0,
+        "Fill Gradient": true,
+        "Glow": true,
+        "Glow Size": 1.0,
+        "Glow Strength": 60.0,
+        "Pulse": 40.0,
+        "Pulse Speed": 1.0,
+        "Sheen": true,
+        "Through Walls": false
+      }
+    },
+    "RENDER:Breadcrumbs:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Ribbon",
+        "Length": 30.0,
+        "Width": 0.12,
+        "Glow": 1.0,
+        "Through Walls": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Damage Numbers:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Compass:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Crosshair:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Cross",
+        "Gap": 3.0,
+        "Dynamic": true
+      }
+    },
+    "RENDER:Death Waypoint:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Kill Effects:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Effect": "Soul",
+        "Color": "White",
+        "Sound": true,
+        "Kill Cutscene": true,
+        "Cutscene": "Crane Up",
+        "Title Card": "Eliminated",
+        "Cutscene Length": 2.6,
+        "Cutscene Players Only": false,
+        "Letterbox": true,
+        "Cancel On Key": false,
+        "Cancel On Damage": true
+      }
+    },
+    "RENDER:Fullbright:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:No Shading:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:No Hurt Cam:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:No Fire:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:No Weather:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Time Changer:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Time": 6000.0
+      }
+    },
+    "RENDER:Custom FOV:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "FOV": 100.0
+      }
+    },
+    "RENDER:Aspect Ratio:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Ratio": "4:3",
+        "Custom Ratio": 1.33
+      }
+    },
+    "RENDER:Zoom:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Zoom": 4.0,
+        "Mode": "Hold",
+        "Smooth": true,
+        "Smoothness": 5.0,
+        "Scroll Adjust": true,
+        "Cinematic Camera": false
+      }
+    },
+    "RENDER:No Bob:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:No Nausea:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {}
+    },
+    "RENDER:Hand Shaders:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Preset": "Custom",
+        "Opacity": 70.0,
+        "Tint": "Off",
+        "Tint Amount": 50.0,
+        "Glow Outline": true,
+        "Glow Color": "Chroma",
+        "Outline Width": 1.0,
+        "Shimmer": false,
+        "Glow Size": 4.0,
+        "Glow Strength": 80.0,
+        "Saturation": 100.0,
+        "Rim Light": false,
+        "Scanlines": false,
+        "Pulse Glow": false,
+        "Effect": "None",
+        "Effect Color": "Purple",
+        "Effect Amount": 80.0,
+        "Effect Speed": 1.0,
+        "Effect Scale": 1.0,
+        "Aberration": 0.0,
+        "Breathe": 0.0,
+        "Light Sweep": 60.0,
+        "Frost": 90.0,
+        "Frost Tint": "Frost",
+        "Refraction": 0.0,
+        "Edge Light": 60.0,
+        "Color Grade": "None",
+        "Pixelate": 0.0,
+        "Posterize": 0.0,
+        "Glitch": 0.0,
+        "Dissolve": 0.0,
+        "Wobble": 0.0
+      }
+    },
+    "RENDER:View Model:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Edit Hand": "Right",
+        "Same For Both": false,
+        "No Equip Animation": false,
+        "Right Scale": 1.0,
+        "Right X": 0.0,
+        "Right Y": 0.0,
+        "Right Z": 0.0,
+        "Right Rotate X": 0.0,
+        "Right Rotate Y": 0.0,
+        "Right Rotate Z": 0.0,
+        "Left Scale": 1.0,
+        "Left X": 0.0,
+        "Left Y": 0.0,
+        "Left Z": 0.0,
+        "Left Rotate X": 0.0,
+        "Left Rotate Y": 0.0,
+        "Left Rotate Z": 0.0
+      }
+    },
+    "RENDER:Swing Animations:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Animation": "Smooth",
+        "Strength": 1.0,
+        "Speed": 1.0,
+        "Curve": "Smooth",
+        "Move X": 0.0,
+        "Move Y": 0.0,
+        "Move Z": -0.2,
+        "Rotate X": -60.0,
+        "Rotate Y": 0.0,
+        "Rotate Z": -20.0,
+        "Pivot On Item": true
+      }
+    },
+    "RENDER:Jump Circles:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Both",
+        "Circle Size": 2.0,
+        "Circle Speed": 2000.0,
+        "Circle Glow": true,
+        "Ring Width": 2.0,
+        "Self": true,
+        "Other Players": false,
+        "Color": "White",
+        "Radius": 1.5,
+        "Distortion Width": 1.0,
+        "Strength": 2.0,
+        "Expand": 800.0,
+        "Fade": 1500.0
+      }
+    },
+    "RENDER:Target ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Mode": "Rhomb",
+        "Crystal Rotation Speed": 0.5,
+        "Colors": "Crypto"
+      }
+    },
+    "RENDER:Storage ESP:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Range": 8.0,
+        "Fill": true,
+        "Outline": true,
+        "Glow": true,
+        "Tracers": true,
+        "Spawner Labels": true
+      }
+    },
+    "RENDER:Arrows:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Distance": 70.0,
+        "Size": 10.0,
+        "Glow": true,
+        "Gradient": true,
+        "Only Off Screen": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:China Hat:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Fill": true,
+        "Outline": true,
+        "Glow": true,
+        "Glow Size": 1.0,
+        "Shine": true,
+        "Other Players": true,
+        "Height": 0.3,
+        "Size": 0.65,
+        "Opacity": 45.0,
+        "Gradient Speed": 0.5,
+        "Color": "White"
+      }
+    },
+    "RENDER:Step Tiles:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Glow",
+        "Fade Time": 1.6,
+        "Smooth Pop": true,
+        "Glow Size": 1.0,
+        "Max Tiles": 60.0,
+        "Color": "White"
+      }
+    },
+    "RENDER:Fireflies:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Count": 40.0,
+        "Color": "White"
+      }
+    },
+    "RENDER:Trails:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Style": "Ribbon",
+        "Length": 1.2,
+        "Width": 0.14,
+        "Glow": 1.0,
+        "Height": 0.45,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Hit Marker:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Sound": false
+      }
+    },
+    "RENDER:Particles:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Shape": "Star",
+        "On Hit": true,
+        "Walking": false,
+        "Amount": 24.0,
+        "Spread": 1.0,
+        "Speed": 1.2,
+        "Lifetime": 2.0,
+        "Size": 0.6,
+        "Glow": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Shader Sky:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Mode": "Aurora",
+        "Color Mode": "Theme",
+        "Color 1": "FFFFFFFF",
+        "Color 2": "FFFFFFFF",
+        "Speed": 1.0,
+        "Scale": 1.1,
+        "Strength": 100.0,
+        "Stars": 75.0,
+        "Vanilla Sky": false
+      }
+    },
+    "RENDER:Motion Blur:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Mode": "Velocity",
+        "Strength": 50.0
+      }
+    },
+    "RENDER:Aura:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Particles": 14.0,
+        "Radius": 0.8,
+        "Speed": 1.0,
+        "Ground Ring": true,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Halo:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Size": 0.3,
+        "Height": 0.28,
+        "Glow": 1.0,
+        "Spin": 1.0,
+        "Sparkles": true,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Wings:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Size": 0.95,
+        "Flap Speed": 1.0,
+        "Feathers": 12.0,
+        "Opacity": 0.8,
+        "Glow": true,
+        "Fold When Idle": true,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Slash Trails:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Thickness": 1.0,
+        "Duration": 0.55,
+        "Color": "White"
+      }
+    },
+    "RENDER:Hit Ripple:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Size": 1.6,
+        "Duration": 0.9,
+        "Shockwave Ring": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Soul Burst:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Duration": 2.2,
+        "Souls": 22.0,
+        "Pillar Height": 7.0,
+        "Players Only": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Ambient Particles:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Type": "Snow",
+        "Count": 160.0,
+        "Radius": 12.0,
+        "Size": 1.0,
+        "Speed": 1.0,
+        "Color": "White"
+      }
+    },
+    "RENDER:Orbit Orbs:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Orbs": 3.0,
+        "Radius": 1.1,
+        "Speed": 1.0,
+        "Trail": 0.9,
+        "Size": 1.0,
+        "Other Players": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Totem Pop:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Duration": 1.6,
+        "Size": 1.4,
+        "Sparks": 40.0,
+        "Totem Colors": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Footprints:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Style": "Shoe",
+        "Fade Time": 4.0,
+        "Stride": 0.8,
+        "Other Players": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Speed Lines:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Lines": 70.0,
+        "Strength": 1.0,
+        "Min Speed": 5.2,
+        "Frost White": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Hit Vignette:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Tone": "Red",
+        "Size": 0.22,
+        "Strength": 0.7,
+        "Duration": 0.7,
+        "Color": "White"
+      }
+    },
+    "RENDER:Low HP Frost:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Health": 8.0,
+        "Strength": 0.85,
+        "Heartbeat": true,
+        "Crystals": true
+      }
+    },
+    "RENDER:Crit Sparks:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Sparks": 22.0,
+        "Power": 1.0,
+        "Every Hit": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Ground Rings:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Radius": 1.1,
+        "Speed": 1.0,
+        "Rings": 3.0,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Spirit Aura:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Motes": 26.0,
+        "Radius": 0.6,
+        "Speed": 0.6,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Shield Bubble:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 1.3,
+        "Opacity": 0.6,
+        "Spin": 0.3,
+        "Other Players": false,
+        "Color": "White"
+      }
+    },
+    "RENDER:Holo Ring:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Spin": 1.0,
+        "All Players": false,
+        "Scanline": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Cape Glow:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Length": 1.0,
+        "Width": 0.32,
+        "Flow": 1.0,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Light Pillar:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Height": 40.0,
+        "Width": 0.45,
+        "Min Distance": 8.0,
+        "Color": "White"
+      }
+    },
+    "RENDER:Land Impact:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Min Fall": 1.5,
+        "Size": 1.0,
+        "Color": "White"
+      }
+    },
+    "RENDER:Galaxy Ring:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Stars": 240.0,
+        "Size": 1.2,
+        "Arms": 3.0,
+        "Speed": 1.0,
+        "Nebula": true,
+        "Color": "Aurora"
+      }
+    },
+    "RENDER:Ice Crown:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Spikes": 10.0,
+        "Size": 1.0,
+        "Height": 1.0,
+        "Spin": 0.3,
+        "Other Players": false,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Hex Wings:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Flap Speed": 1.0,
+        "Spread": 28.0,
+        "Glow": true,
+        "Other Players": false,
+        "Color": "Aurora"
+      }
+    },
+    "RENDER:Holo Grid:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 4.5,
+        "Cell Size": 0.5,
+        "Scan Speed": 1.0,
+        "Depth Test": true,
+        "Color": "Ocean"
+      }
+    },
+    "RENDER:Lanterns:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Count": 2.0,
+        "Size": 1.0,
+        "Follow Speed": 1.0,
+        "Color": "Warm"
+      }
+    },
+    "RENDER:Silk Ribbons:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Ribbons": 3.0,
+        "Length": 1.0,
+        "Width": 0.13,
+        "Radius": 0.85,
+        "Speed": 1.0,
+        "First Person": false,
+        "Color": "Sakura"
+      }
+    },
+    "RENDER:Mana Aura:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 0.6,
+        "Height": 1.3,
+        "Sparks": 40.0,
+        "Speed": 1.0,
+        "Color": "Aurora"
+      }
+    },
+    "RENDER:Star Dust:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Density": 1.0,
+        "Life": 1.6,
+        "Size": 1.0,
+        "Color": "Gold"
+      }
+    },
+    "RENDER:Sakura:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Petals": 80.0,
+        "Radius": 7.0,
+        "Wind": 1.0,
+        "Size": 1.0,
+        "Color": "Sakura"
+      }
+    },
+    "RENDER:Ghost Trail:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Ghosts": 7.0,
+        "Spacing": 0.07,
+        "Glow": 1.0,
+        "Other Players": false,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Rune Orbit:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Runes": 6.0,
+        "Radius": 1.05,
+        "Size": 1.0,
+        "Speed": 1.0,
+        "Tilt": 14.0,
+        "Orbit Path": true,
+        "First Person": false,
+        "Color": "Purple"
+      }
+    },
+    "RENDER:Crosshair Halo:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 7.0,
+        "Thickness": 1.5,
+        "Dynamic": true,
+        "Cooldown Arc": true,
+        "Dot": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Screen Bokeh:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Orbs": 16.0,
+        "Size": 1.0,
+        "Intensity": 1.0,
+        "Parallax": true,
+        "Clear Center": true,
+        "Color": "Aurora"
+      }
+    },
+    "RENDER:Hit Shockwave:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Duration": 0.6,
+        "Chromatic": true,
+        "Flash": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Cinematic Bars:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Aspect": 2.35,
+        "Softness": 1.0,
+        "Accent Line": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Crown:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Spikes": 7.0,
+        "Float": 0.08,
+        "Gems": true,
+        "Other Players": true,
+        "Color": "Gold"
+      }
+    },
+    "RENDER:Devil Horns:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Curl": 1.0,
+        "Glow": true,
+        "Other Players": true,
+        "Color": "Crimson"
+      }
+    },
+    "RENDER:Floating Name Ring:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 0.55,
+        "Height": 0.45,
+        "Spin": 0.5,
+        "Text Size": 1.0,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Energy Shield:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Duration": 0.8,
+        "When You Get Hit": true,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Afterimages:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Copies": 6.0,
+        "Spacing": 0.06,
+        "Opacity": 0.35,
+        "Always (not only sprint)": false,
+        "Other Players": true,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Butterflies:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Butterflies": 3.0,
+        "Size": 1.0,
+        "Range": 1.1,
+        "Other Players": false,
+        "Color": "Rainbow"
+      }
+    },
+    "RENDER:Pet Orb:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Follow Speed": 4.0,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Constellation:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Range": 16.0,
+        "Links": 2.0,
+        "Color": "Purple"
+      }
+    },
+    "RENDER:Hit Hearts:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Hearts": 6.0,
+        "Size": 1.0,
+        "Color": "Sakura"
+      }
+    },
+    "RENDER:Damage Numbers:1": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Range": 24.0,
+        "Show Your Damage": false,
+        "Color": "Gold"
+      }
+    },
+    "RENDER:Rainbow Road:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Width": 0.35,
+        "Duration": 2.5,
+        "Other Players": false,
+        "Color": "Rainbow"
+      }
+    },
+    "RENDER:Sakura Petals:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Petals": 26.0,
+        "Radius": 1.6,
+        "Size": 1.0,
+        "Color": "Sakura"
+      }
+    },
+    "RENDER:Electric Arcs:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Arcs": 4.0,
+        "Flicker Rate": 18.0,
+        "Always (not only sprint)": false,
+        "Other Players": true,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Sword Glint:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Interval": 2.2,
+        "Size": 1.0,
+        "Other Players": true,
+        "Color": "White"
+      }
+    },
+    "RENDER:Jetpack Flames:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Flame Length": 1.0,
+        "Always": false,
+        "Show Jetpack": true,
+        "Other Players": true,
+        "Flame": "Fire"
+      }
+    },
+    "RENDER:Jump Bubbles:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 1.0,
+        "Other Players": true,
+        "Color": "Ice"
+      }
+    },
+    "RENDER:Dragon Tail:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Length": 1.3,
+        "Thickness": 1.0,
+        "Spikes": true,
+        "Other Players": true,
+        "Color": "Crimson"
+      }
+    },
+    "RENDER:World Style:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Style": "Candyland",
+        "Intensity": 100.0,
+        "Edges": 100.0,
+        "Cyber Color": "Cyan",
+        "Accent Color": "Magenta",
+        "Block Grid": 100.0,
+        "Scanlines": 50.0,
+        "Particles": 100.0,
+        "Wind": 100.0,
+        "Pixel Size": 4.0,
+        "Sparkles": 100.0,
+        "Reflection": false,
+        "Reflection Strength": 55.0,
+        "Roughness": 30.0
+      }
+    },
+    "RENDER:Freecam:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Speed": 2.0,
+        "Smoothing": true,
+        "Freeze": false,
+        "Show Player": true,
+        "OG Freecam": false
+      }
+    },
+    "RENDER:Freelook:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Distance": 4.0,
+        "Smooth Zoom": true,
+        "Smoothness": 60.0,
+        "Camera Collision": false
+      }
+    },
+    "BASE:Rtp Base Finder:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Mode": "Random",
+        "Spawners": true,
+        "Minimum Storage": 100.0,
+        "Auto Totem Buy": true,
+        "Totem Slot": 8.0,
+        "Auto Mend": true,
+        "XP Bottle Slot": 9.0,
+        "Discord Notification": false,
+        "Totem Check": true,
+        "Totem Check Time": 20.0,
+        "Highlight Finds": true,
+        "Status Card": true,
+        "Tint": "FFF3F5F8",
+        "Dig To Y": -20.0
+      }
+    },
+    "BASE:Tunnel Base Finder:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Spawners": true,
+        "Minimum Storage": 100.0,
+        "Auto Totem Buy": true,
+        "Totem Slot": 8.0,
+        "Auto Mend": true,
+        "XP Bottle Slot": 9.0,
+        "Discord Notification": false,
+        "Totem Check": true,
+        "Totem Check Time": 20.0,
+        "Highlight Finds": true,
+        "Status Card": true,
+        "Tint": "FFF3F5F8"
+      }
+    },
+    "DONUT:Skelly Debug:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Cloak Y": 0.0,
+        "Split Y": -57.0,
+        "Min Score": 15.0,
+        "Neighbour Merge": 2.0,
+        "Min Chunks": 1.0,
+        "Decay Seconds": 90.0,
+        "Ignore When Deep": true,
+        "Ignore Radius": 12.0,
+        "Chat Notify": true,
+        "Debug Log": false,
+        "Render Distance": 512.0,
+        "Plane Y": 64.0,
+        "Animations": true,
+        "Tracers": true,
+        "Labels": true,
+        "Found List": true,
+        "Style": "Frost",
+        "Tint": "FFF3F5F8",
+        "Opacity": 1.0,
+        "Scan Radius": 10.0,
+        "Geode Min Y": 4.0,
+        "Geode Max Y": 40.0,
+        "Min Lit Cells": 10.0,
+        "Chunks Per Tick": 2.0
+      }
+    },
+    "DONUT:OG Debug:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Radius": 8.0,
+        "Scan Interval": 2.0,
+        "Chunks Per Scan": 8.0,
+        "Scan Max Y": 320.0,
+        "Spawner Max Y": 0.0,
+        "Storage Required": 5.0,
+        "Base Points": 10.0,
+        "Farm Pieces": 14.0,
+        "Built Points": 120.0,
+        "Entity Scan": true,
+        "Mob Base Score": 30.0,
+        "Min Base Y": -58.0,
+        "Skeleton Only": false,
+        "Packet Bypass": true,
+        "Leak Scan": true,
+        "Leak Min Score": 10.0,
+        "Neighbour Merge": 1.0,
+        "Geode Scan": false,
+        "Geode Min Cells": 8.0,
+        "Chat Notify": true,
+        "Render Distance": 512.0,
+        "Plane Y": 64.0,
+        "Animations": true,
+        "Tracers": true,
+        "Labels": true,
+        "Found List": true,
+        "Style": "Frost",
+        "Tint": "FFF3F5F8",
+        "Opacity": 1.0
+      }
+    },
+    "HUD:Interface:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "UI Scale": 100.0,
+        "Roundness": 60.0,
+        "Notifications": true,
+        "Menu Key": 344
+      }
+    },
+    "HUD:Watermark:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Style": "Pill",
+        "Text": "Tenacity",
+        "Rank": "Developer",
+        "Show Rank": true,
+        "FPS": true,
+        "RAM": true,
+        "CPU": true,
+        "Time": true,
+        "Ping": false
+      },
+      "x": 12.0,
+      "y": 12.0,
+      "scale": 1.0,
+      "refW": 1476.9231,
+      "refH": 830.7693
+    },
+    "HUD:Module List:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Suffixes": true,
+        "Sort": "Length"
+      },
+      "x": 1476.9231,
+      "y": 0.0,
+      "scale": 1.0,
+      "refW": 1476.9231,
+      "refH": 830.7693
+    },
+    "HUD:Coordinates:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Other Dimension": true,
+        "Direction": true
+      },
+      "x": 12.0,
+      "y": 740.7693,
+      "scale": 1.0,
+      "refW": 1476.9231,
+      "refH": 830.7693
+    },
+    "HUD:Staff List:0": {
+      "enabled": true,
+      "bind": -1,
+      "settings": {
+        "Show Rank": true,
+        "Heads": true,
+        "Show When Empty": true
+      },
+      "x": 12.0,
+      "y": 56.0,
+      "scale": 1.0,
+      "refW": 1476.9231,
+      "refH": 830.7693
+    },
+    "HUD:Spotify:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Album Art": true,
+        "Progress": true
+      },
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    },
+    "HUD:Keybinds:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {},
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    },
+    "HUD:Inventory:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {},
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    },
+    "HUD:Armor:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Durability %": true
+      },
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    },
+    "HUD:Radar:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Size": 150.0,
+        "Range": 48.0,
+        "Mobs": false,
+        "Names": false
+      },
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    },
+    "HUD:Hotbar:0": {
+      "enabled": false,
+      "bind": -1,
+      "settings": {
+        "Off Hand": true,
+        "Slot Numbers": false,
+        "Status Bars": true
+      },
+      "x": -1.0,
+      "y": -1.0,
+      "scale": 1.0,
+      "refW": 0.0,
+      "refH": 0.0
+    }
+  },
+  "gui": {
+    "COMBAT": {
+      "x": 190.0,
+      "y": 140.4,
+      "open": true
+    },
+    "MOVEMENT": {
+      "x": 412.0,
+      "y": 140.4,
+      "open": true
+    },
+    "RENDER": {
+      "x": 634.0,
+      "y": 140.4,
+      "open": true
+    },
+    "PLAYER": {
+      "x": 856.0,
+      "y": 140.4,
+      "open": true
+    },
+    "BASE": {
+      "x": 1078.0,
+      "y": 140.4,
+      "open": true
+    },
+    "DONUT": {
+      "x": 1300.0,
+      "y": 140.4,
+      "open": true
+    },
+    "HUD": {
+      "x": 1522.0,
+      "y": 140.4,
+      "open": true
+    },
+    "refW": 1920.0,
+    "refH": 1080.0
+  }
+}
