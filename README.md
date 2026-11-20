@@ -6,5 +6,5 @@ A Fabric 1.21.11 Minecraft client.
 
 All code in this project was written by **Claude** (Anthropic), working with ZClux.
 
-- Client modules, UI, rendering and injection: Claude
+- Client modules, UI and rendering: Claude
 - Direction, testing and ideas: ZClux
